@@ -622,7 +622,7 @@ section .title a{
     /* background: red; */
     /* position: absolute; */
     /* margin-top: -255px; */
-    /* margin-left: 5px; */
+    margin-left: 5%;
     }
 
     .choose .contents .bottom .box .titles p{
