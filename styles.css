@@ -149,7 +149,7 @@ nav .menu-btn,
 .home{
     height: 100vh;
     width: 100%;
-    background: url("img/top-background.png") no-repeat;
+    background: url("img/background.png") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -522,7 +522,7 @@ section .title a{
 }
 
 .footer .contentss .column-two,
-.footer .contentss .column-three,{
+.footer .contentss .column-three{
     margin-top: 16px;
 }
 
@@ -574,7 +574,7 @@ section .title a{
 }
 
 /* Responsive */
-@media (max-width: 750px){
+@media (max-width: 768px){
     nav .navbar .menu{
         position: absolute;
         left: -100%;
@@ -607,12 +607,112 @@ section .title a{
         display: block;
     }
 
-    .home .text .text-two{
-        font-size: 50px;
+    .home .text .Title{
+        font-size: 35px;
     }
 
-    .home .text .text-three{
-        font-size: 35px;
+    .home .text .content{
+        font-size: 12px;
+    }
+
+    .choose .contents .top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: red; */
+    /* position: absolute; */
+    /* margin-top: -255px; */
+    margin-left: 5px;
+    }
+
+    .choose .contents .bottom .box .titles p{
+        font-size: 20px;
+    }
+
+    .choose .contents .bottom .box .sub-titles p{
+        font-size: 10px;
+    }
+
+    .recipes .contents{
+        margin-top: 10px;
+    }
+
+    .recipes .contents .right .pattern{
+        display: none;
+    }
+
+    .recipes .contents .left{
+        margin-top: -10px;
+    }
+
+    .recipes .contents .right{
+        align-items: center;
+        margin-top: -500px;
+        margin-right: 10%;
+        text-align: center;
+    }
+
+    .footer .title{
+        font-size: 30px;
+    }
+    
+    .footer .column-one .content{
+        margin-top: 14px;
+    }
+    
+    .footer .column-one .content p{
+        font-size: 10px;
+    }
+    
+    .footer .column-one .follow{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    
+    .footer .column-one .icon{
+        margin-top: 14px;
+    }
+    
+    .footer .column-one .content .icon a{
+        font-size: 25px;
+    }
+    
+    .footer .contentss .content-title{
+        font-size: 12px;
+    }
+    
+    .footer .contentss .content{
+        font-size: 12px;
+    }
+    
+    .footer .contentss .column-four{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        /* margin-top: 24px; */
+        /* background: red; */
+    }
+    
+    .footer .contentss .column-four .image{
+        width: 180px;
+        /* background: red */
+    }
+    
+    .footer .contentss .appstore img{
+        width: 180px;
+        margin-top: 20px;
+        margin-left: 38px;
+    }
+    
+    .footer .contentss .gplay img{
+        width: 180px;
+        margin-top: 60px;
+        margin-left: 38px;
+    }
+    
+    .copyright p{
+        font-size: 14px;
+        margin-top: 10px;
     }
 }
 
